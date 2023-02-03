@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+:root {
+    --bodybg: #EFEFEF;
+    --bg4: #FFF;
+    --tcolor: rgb(119 119 119);
+    --bgd: #0b0b0b;
+    --font01: 'Bungee', cursive;
+    --font02: 'Roboto', sans-serif;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font01);
+}
+
+body {
+    background: var(--bodybg);
+}
+
+.iphone-x {
+    margin-top: 100px;
+}
+
+.iphone-x .screen {
+    width: 42%;
+    height: 645px;
+    margin: 0 auto;
+    border-radius: 44px;
+    background: var(--bodybg);
+    padding: 10px;
+    border: 8px solid #0b0b0b;
+    min-width: 320px;
+    max-width: 320px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.time {
+    color: #0b0b0b;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: var(--font02);
+}
+
+.notch {
+    width: 80px;
+    background: #0b0b0b;
+    height: 23px;
+    border-radius: 20px;
+}
+
+.right_area {
+    display: flex;
+}
+
+.battery i {
+    color: #0b0b0b;
+}
+
+.wifi i {
+    color: #0b0b0b;
+    font-size: 15px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 0px;
+}
+
+.content .text h1 {
+    font-size: 18px;
+    color: #0b0b0b;
+    margin: 0;
+}
+
+.content .text h2 {
+    font-size: 15px;
+    color: rgb(178, 178, 178);
+    margin: 0;
+    font-family: var(--font02);
+}
+
+.boxs {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 6px;
+}
+
+.boxs span {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    padding: 0px;
+    border-radius: 2px;
+    background: var(--bg4);
+    border: 2px solid #0b0b0b;
+    box-shadow: 2px 2px 0 #0b0b0b;
+}
+
+.area {
+    width: 100%;
+    min-height: 120px;
+    font-size: 30px;
+    text-align: right;
+    overflow: scroll;
+    outline: none;
+    font-weight: 400;
+    color: var(--bgd);
+    border: 4px solid #0b0b0b;
+    border-radius: 2px;
+    padding: 10px;
+    box-shadow: 0.2rem 0.2rem 0 #0b0b0b;
+}
+
+.calculator {
+    margin-top: 8px;
+    padding: 8px;
+}
+
+.key {
+    font-size: 15px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.first-col,
+.second-col {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: center;
+}
+
+button {
+    position: relative;
+    width: 58px;
+    height: 58px;
+    text-align: center;
+    padding: 0px;
+    color: var(--bgd);
+    border-radius: 8px;
+    outline: none;
+    background: var(--bg4);
+    border: 3px solid #0b0b0b;
+    font-weight: 400;
+    font-size: 20px;
+    box-shadow: 0.2rem 0.2rem 0 #0b0b0b;
+    scale: 0.9;
+    transition: all 0.3s ease;
+}
+
+button:focus {
+    cursor: pointer;
+    outline: none;
+}
+
+button:active {
+    scale: 1.1;
+}
+
+.zroo {
+    width: 125px;
+}
+
+.menu {
+    display: block;
+    width: 110px;
+    height: 4px;
+    margin: 26px auto 0px auto;
+    border-radius: 30px;
+}
+
+#eql {
+    color: #ee9b4b !important;
+    transition: all 0.3s ease;
+}
+
+#eql:hover {
+    background: #e2c2a4;
+}
+
+#num {
+    color: #63acbf !important;
+}
